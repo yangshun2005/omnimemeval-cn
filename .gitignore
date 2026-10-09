@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[codz]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Environments and credentials
+.env
+.env.*
+!env_examples/.env.*
+.venv/
+venv/
+env/
+
+# Local outputs and caches
+results/
+downloads/
+.cache/
+.local/
+.codex/
+.agents/
+.memos/
+mydemo/
+run_shell.sh
+LiveCodeBench/
+
+# Dataset payloads. Keep public READMEs and preparation scripts tracked.
+data/**
+!data/
+!data/locomo/
+!data/locomo/README.md
+!data/locomo/prepare_locomo.py
+!data/longmemeval/
+!data/longmemeval/README.md
+!data/longmemeval/prepare_longmemeval.py
+!data/beam/
+!data/beam/README.md
+!data/beam/prepare_beam.py
+!data/halumem/
+!data/halumem/README.md
+!data/halumem/prepare_halumem.py
+!data/personamem_v2/
+!data/personamem_v2/README.md
+!data/personamem_v2/column_descriptions.md
+!data/personamem_v2/prepare_personamem.py
+
+# Not part of the public release
+WORK_LOG*.md
+OSS_NORMALIZATION_WORK_LOG.md
+AGENTS.md
+docs/
+!docs/
+!docs/benchmark-results.md
+!docs/user_memory/
+!docs/user_memory/**
+!docs/agent_memory/
+!docs/agent_memory/**
